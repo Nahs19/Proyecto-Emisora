@@ -35,7 +35,6 @@ public class EmisoraFM {
 		
 		if (frecuencia < 80) {
 			frecuencia = 108;
-			System.out.println("s");
 			return frecuencia;
 		}
 		else if (frecuencia > 108) {
