@@ -2,8 +2,8 @@ package Emisora;
 
 import java.util.Scanner;
 
-/*Al momento de escoger la opciÛn que se desea se ejecutar·, 
-pero al escoger la siguiente opciÛn se ejecutar· con la respuesta de la anterior*/
+/*Al momento de escoger la opci√≥n que se desea se ejecutar√°, 
+pero al escoger la siguiente opci√≥n se ejecutar√° con la respuesta de la anterior*/
 
 public class Main {
 	
@@ -11,7 +11,7 @@ public class Main {
 		
 		//Se ingresa una frecuencia de 80 
 		EmisoraFM fr1 = new EmisoraFM ();
-		fr1.setFrecuencia(70);
+		fr1.setFrecuencia(80);
 		Scanner in = new Scanner (System.in);
 		int opcion;
 		
@@ -31,7 +31,7 @@ public class Main {
             case 2: fr1.controlador();fr1.bajar();break;
             case 3: fr1.display();break;
             case 4: break;
-            default: System.out.println("Opcion no v·lida");//Mensaje de dato errÛneo
+            default: System.out.println("Opcion no v√°lida");//Mensaje de dato err√≥neo
         }
     }while (opcion != 4);
   }
